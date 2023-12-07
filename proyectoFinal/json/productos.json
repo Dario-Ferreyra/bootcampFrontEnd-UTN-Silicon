@@ -1,0 +1,72 @@
+[
+    {
+        "id": "0",
+        "nombre": "GUITARRA ELÉCTRICA IBANEZ RG GIO GRX40 DE ÁLAMO BLACK NIGHT CON DIAPASÓN DE JATOBA",
+        "descripcion": "Cuerpo de álamo y mástil de arce para resonancia y sustain superiores. Diapasón de jatoba para una ejecución suave y rápida 6 cuerdas y escala de 25.5\" ideal para principiantes y experimentados. 3 micrófonos y selector de 5 posiciones para versatilidad tonal",
+        "precio": 348500,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_716816-MLA46349902396_062021-F.webp"
+    },
+    {
+        "id": "1",
+        "nombre": "GUITARRA ELÉCTRICA PRS GUITARS SE CUSTOM 24-08 DE CAOBA 2021 VINTAGE SUNBURST CON DIAPASÓN DE PALO DE ROSA",
+        "descripcion": "6 cuerdas y escala de 25\" para versatilidad y facilidad de ejecución. 2 micrófonos Humbucker TCI \"S\" y selector de 3 posiciones para un sonido potente y claro",
+        "precio": 1821539,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_887546-MLA54862382737_042023-F.webp"
+    },
+    {
+        "id": "2",
+        "nombre": "TECLADO MUSICAL CASIO CTK-3500 61 TECLAS NEGRO",
+        "descripcion": "61 teclas sensibles al tacto para mayor expresividad. 400 tonos y 100 ritmos para explorar diferentes estilos",
+        "precio": 268350,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_609923-MLA46440160184_062021-F.webp"
+    },
+    {
+        "id": "3",
+        "nombre": "CONTROLADOR MIDI NOVATION LAUNCHKEY 37 MK3 37 TECLAS",
+        "descripcion": "37 teclas sensitivas para una interpretación dinámica y realista. Compatible con diversos software de música y DAWs",
+        "precio": 357240,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_751403-MLA44771627610_022021-F.webp"
+    },
+    {
+        "id": "4",
+        "nombre": "CONTROLADOR NOVATION LAUNCHPAD MINI MK3",
+        "descripcion": "Dimensiones: 18cm x 18cm x 142cm. Pesa 0.84lb. 64 pads. Cuenta con 0 faders y 16 perillas. Con botones DAW y de cambio de octava. Retroiluminado. Softwares incluidos: Ableton Live.",
+        "precio": 196476,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_970730-MLM44588498732_012021-F.webp"
+    },
+    {
+        "id": "5",
+        "nombre": "TECLADO 61 TECLAS ROLAND XPS10RD USB CON FUENTE ALIMENTACION COLOR ROJO",
+        "descripcion": "Con 30 ritmos. Suenan hasta 128 notas simultáneamente. Tiene interfaz MIDI.",
+        "precio": 1554863,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_906908-MLU71422808684_092023-F.webp"
+    },
+    {
+        "id": "6",
+        "nombre": "NUX MODELING GUITAR & BASS PROCESSOR MG-400 - NEGRO",
+        "descripcion": "524 efectos para personalizar tu sonido a la perfección. Compatible con bajo, guitarra eléctrica y micrófono. Incluye pedal de expresión para control dinámico",
+        "precio": 296774,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_769253-MLA52348150087_112022-F.webp"
+    },
+    {
+        "id": "7",
+        "nombre": "PEDAL DE EFECTO BOSS SUPER OVERDRIVE SD-1 AMARILLO",
+        "descripcion": "Compatible con guitarra eléctrica. Incluye 1 efecto.",
+        "precio": 138061,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_685600-MLA47531305622_092021-F.webp"
+    },
+    {
+        "id": "8",
+        "nombre": "MAPEX PRODIGY 5 CUERPOS BATERIA ACÚSTICA COMPLETA COLOR DARK BURGUNDY",
+        "descripcion": "La configuración del instrumento es la siguiente: Tom: 12\", Tom: 13\", Tom de pie: 16\", Redoblante: 14\" x 5.5\", Bombo: 22\"",
+        "precio": 777849,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_911922-MLU72966223549_112023-F.webp"
+    },
+    {
+        "id": "9",
+        "nombre": "BATERÍA ELECTRÓNICA NUX DM-210 PARCHES MESH BLUETOOTH",
+        "descripcion": "Caja x1 de 8\", Tom x3 de 8\", 1 charles de 10\", 1 Crash de 10\", 1 Ride de 10\", 1 bombo, 1 control de charles, 1 pedal de bombo, 1 módulo DM-210",
+        "precio": 807989,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_653763-MLU72144866861_102023-F.webp"
+    }
+]

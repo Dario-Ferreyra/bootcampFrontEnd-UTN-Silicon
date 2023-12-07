@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Carrito</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/logo-main.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light py-1">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../images/logo-main.png" width="50" alt="Logo de la pagina" />
+                    <span class="logo-text">Piano House</span>
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca-de.html">Acerca De</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="carrito.html">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="container">
+        <h1 class="text-center mb-5 mt-5">
+            Carrito de Compras
+        </h1>
+
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-center">Imagen</th>
+                    <th scope="col" class="text-center">Nombre</th>
+                    <th scope="col" class="text-center">Acción</th>
+                    <th scope="col" class="text-center">Precio Unitario</th>
+                </tr>
+            </thead>
+            <tbody id="miTabla">
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="col" class="text-center"></th>
+                    <th scope="col" class="text-center"></th>
+                    <th scope="col" class="text-center">Total</th>
+                    <th scope="col" class="text-center" id="total">$</th>
+                </tr>
+            </tfoot>
+        </table>
+        <button type="button" class="btn btn-danger float-end" id="vaciarCarrito">Vaciar Carrito</button>
+        <br>
+        <h1 class="text-center mb-5 mt-5">
+            Datos de envío
+        </h1>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="d-grid needs-validation" action="" method="" novalidate>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="nombreCompleto" placeholder="Nombre completo"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor completa este campo
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="direccion" placeholder="Dirección" required>
+                        <div class="invalid-feedback">
+                            Por favor completa este campo
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <div class="invalid-feedback">
+                            Por favor completa este campo
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="number" class="form-control" id="telefono" placeholder="Teléfono" required>
+                        <div class="invalid-feedback">
+                            Por favor completa este campo
+                        </div>
+                    </div>
+                    <hr>
+                    <h6 class="mb-3">Forma de pago</h6>
+                    <select class="form-select custom-select-text-color" aria-label="Default select example" id="formaDePago" required>
+                        <option selected value="">Seleccionar método de pago</option>
+                        <option value="1">Efectivo</option>
+                        <option value="2">Débito</option>
+                        <option value="3">Crédito</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Por favor seleccione una forma de pago
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-warning" id="btnFinalizarCompra">Finalizar compra</button>
+                </form>
+            </div>
+        </div>
+        <br> <br>
+    </main>
+
+    <!-- Footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <p class="footer-texto text-center">¡Seguinos en nuestras redes sociales!</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://web.whatsapp.com/%F0%9F%8C%90/es" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://github.com/Dario-Ferreyra/bootcampFrontEnd-UTN-Silicon" target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Ferreyra Dario (2023) &#169;</div>
+    </footer>
+    <script src="../js/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
