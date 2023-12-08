@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&family=Rubik+Dirt&family=Ubuntu:wght@300&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 * {
@@ -7,334 +6,128 @@
 
 body {
     background: radial-gradient(#955c68, #5e363f);
-    /* background-color: #5e363f; */
 }
 
+/*  NavBar  ------------------------------*/
 .navbar-nav .nav-link {
     color: whitesmoke;
-
-  }
-
-  .nav-item a.nav-link.active {
-    color: #ffe29a;
-
-  }
-
-  .container p {
-    text-align: justify;
-    line-height: 1.6;
-    font-size: 20px;
-    /* font-weight: bold; */
-  }
-
-option {
-    color: #000;
 }
-
-.invalid-feedback {
-    color: #ffe29a;
+.nav-item a.nav-link.active {
+    color: #ffc27f;
 }
-
-.tamanioImagen {
-    object-fit: contain;
-    background-color: white;
-
-}
-  
-  
-
-
-
-
-
-
-h2,
-h3,
-h4 {
-    font-family: 'Poppins', sans-serif;
-}
-
-/* Barra de navegacion */
-
 .navbar {
     padding: 2rem;
     background: radial-gradient(#5f3840, #41252b);
     color: whitesmoke;
-
-    /* background-color: #ac4147; */
 }
-
-.card-title {
-    color: #ffe29a;
-}
-
-.card {
-    background-color: #614047;
-}
-
-.img-fluid {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-footer {
-    min-height: 50px;
-    background-color: rgb(32, 32, 32);
-}
-
-td {
-    text-align: center;
-}
-
-
-
-
-
-
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
 
-/* Seccion Heron */
-.hero {
-    min-height: 450px;
+
+/*  Barra de desplazamiento o scroll  ------------------------------*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #41252b;
+}
+::-webkit-scrollbar-track {
+    background-color: #5e363f;
+}
+/* para Firefox */
+body {
+    scrollbar-color: #41252b #ffc27f;
+}
+
+
+/*  Otros  ------------------------------*/
+
+.container p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 20px;
+}
+option {
+    color: #000;
+}
+.invalid-feedback {
+    color: #ffe29a;
+}
+.tamanioImagen {
+    object-fit: contain;
+    background-color: white;
+
+}
+.precio {
+    color: #ffc27f;
+}
+h1 {
+    color: #ffc27f;
+}
+.card-title {
+    color: #ffc27f;
+}
+.card {
+    background-color: #614047;
+}
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+td {
     text-align: center;
 }
-
-.hero-principal {
-    padding: 2rem;
-}
-
-.hero-imagen.logo {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    cursor: pointer;
-    
-}
-
-.hero-principal {
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-    transition: 1.5s;
-}
-
-.hero-principal img {
-    display: block;
-    border-radius: 5px;
-}
-
-.hero-principal:hover {
-    transform: scale(0.9);
-    z-index: 2;
-}
-
-
-/* Hero inferior */
-
-.cream-bg {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: #E5EABF;
-}
-
-
-
-/* .card h5 {
-    text-transform: uppercase;
-    color: #A78787;
-    font-size: .8rem;
-} */
-
 .card p {
     line-height: 1.4em;
 }
 
-.card.heroinf {
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-  margin-bottom: 20px;
-}
 
-.cards{
-    display: flex;
-    margin: 20px;
-    padding: 30px;
-    padding-left: 200px;
-    padding-right: 20px;
-    
-}
-
-.formular{
-display: flex;
-justify-content: center;
-}
-
-
-/* Contacto */
-
-.contacto {
-    margin-bottom: 1rem;
-}
-
-.contacto.container {
-    max-width: 1100px;
-    min-height: 200px;
-    padding: 20px;
-}
-
-.contacto .rectangle {
-    margin-top: 1rem;
-    background-color: #E5EABF;
-    border-radius: 10px;
-    box-shadow: 0px 1px 4px 1px white;
-}
-
-.contacto .row {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.contacto .descripcion {
-    color: black;
-    font-size: 1.2rem;
-}
-
-.contacto button {
-    color: black;
-    font-weight: bold;
-    background-color: transparent;
-    border: 2px solid black;
-    padding: 0.1em 0.5em;
-    margin: 10px;
-    border-radius: 100px;
-    transition: all 1 ease-in-out;
-}   
-
-.contacto button i{
-    color: black;
-    font-size: 1.3rem;
-    transition: all 1 ease-in-out;
-}
-
-.contacto button:hover {
-    background-color: black;
-    color: black;
-    color: white;
-
-}
-
-.contacto button:hover i {
-    color: black;
-    color: white;
-}
-
-/* ¿Quienes somos? */
-.heading-nosotros {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 20px auto;
-}
-
-.heading-nosotros h1 {
-    font-size: 50px;
-    color: #000;
-    margin-bottom: 25px;
-    position: relative;
-}
-
-.heading-nosotros h1::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    display: block;
-    margin: 0 auto;
-    background-color: red;
-}
-
-.heading-nosotros p{
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 35px;
-    padding: 1.5rem;
-}
-
-.container-nosotros {
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px 20px;
-}
-
-.nosotros {
+/*  Acerca De  ------------------------------*/
+.acercade {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .about-content {
     flex: 2;
 }
-
 .about-content h2 {
     font-size: 23px;
     margin-bottom: 15px;
-    color: #333;
 }
-
-.about-content p{
+.about-content p {
     font-size: 18px;
     line-height: 1.5;
-    color: #666;
 }
-
-.about-content .read-more{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #E5EABF ;
-    color: rgb(194, 111, 111);
-    font-size: 19px;
-    text-decoration: none;
-    border-radius: 25px;
-    margin-top: 15px;
-    transition: 0.3s ease;   
-}
-
-.about-content .read-more:hover{
-    background-color: black;
-}
-
-.nosotros-image {
+.acercade-image {
     flex: 1;
     margin-right: 40px;
+    margin-left: 40px;
     overflow: hidden;
 }
-
-.nosotros-image img {
+.acercade-image img {
     max-width: 100%;
     height: auto;
     display: block;
     border-radius: 50px;
     transition: 0.5s ease;
 }
-
-.nosotros-image:hover img {
+.acercade-image:hover img {
     transform: scale(1.2);
 }
 
 
 
 
-/* Footer   */
-
-
-
+/*  Footer  ------------------------------*/
+footer {
+    min-height: 50px;
+    background-color: rgb(32, 32, 32);
+}
 .footer-logo {
     height: 100px;
     width: 150px;
@@ -342,15 +135,13 @@ justify-content: center;
     background-color: #E5EABF;
     border-radius: 50%;
 }
-
 .footer-texto {
     font-size: 1.5rem;
     color: white;
     padding: 20px;
     margin-bottom: 30px;
-    font-family: 'Quicksand' sans-serif;
+    /* font-family: 'Quicksand' sans-serif; */
 }
-
 .iconos-redes-sociales a {
     width: 50px;
     height: 50px;
@@ -363,62 +154,68 @@ justify-content: center;
     border-radius: 50%;
     transition: all 0.2 ease-in;
 }
-
 .iconos-redes-sociales i {
     color: white;
     font-size: 1.5rem;
     transition: all 0.2 ease-in;
 }
-
 .iconos-redes-sociales a:hover {
     background-color: #E5EABF;
     border: 2px solid red
 }
-
 .iconos-redes-sociales a:hover i {
     color: red;
 }
-
 .derechos-de-autor {
     font-size: 15px;
     color: #aeaeae;
     padding: 20px;
 }
 
-/* Responsive */
-@media screen and (max-width: 767px){
-    .navbar-brand{
+/*  Responsive  ------------------------------*/
+@media screen and (max-width: 767px) {
+    .navbar-brand {
         display: none;
     }
-    .heading-nosotros{
+
+    .heading-acercade {
         padding: 0px 20px;
     }
-    .heading-nosotros h1{
+
+    .heading-acercade h1 {
         font-size: 36px;
     }
-    .heading-nosotros p{
+
+    .heading-acercade p {
         font-size: 17px;
         margin: top 0px;
     }
-    .container-nosotros{
+
+    .container-acercade {
         padding: 0px;
     }
-    .nosotros {
+
+    .acercade {
         padding: 20px;
         flex-direction: column;
     }
-    .nosotros-image{
+
+    .acercade-image {
         margin-right: 0px;
+        margin-left: 0px;
         margin-bottom: 20px;
     }
-    .about-content p{
+
+    .about-content p {
         padding: 0px;
         font-size: 16px;
     }
-    .about-content.read-more{
+
+    .about-content.read-more {
         font-size: 16px;
     }
-    .carousel{
+
+    .carousel {
         margin-left: 0px;
     }
 }

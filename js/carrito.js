@@ -66,6 +66,7 @@ const cargarCarrito = () => {
     totalCarrito.textContent = formatearComoMoneda(sumaTotal);
 }
 
+
 let borrarCarrito = document.getElementById('vaciarCarrito');
 
 borrarCarrito.addEventListener('click', (e) => {
@@ -81,6 +82,7 @@ borrarCarrito.addEventListener('click', (e) => {
 
     totalCarrito.textContent = formatearComoMoneda(sumaTotal);
 })
+
 
 let finalizarCompra = document.getElementById('btnFinalizarCompra');
 
@@ -101,6 +103,7 @@ finalizarCompra.addEventListener('click', (e) => {
         form.classList.add('was-validated');
     }
 })
+
 
 function formatearComoMoneda(numero) {
     const formatoMoneda = new Intl.NumberFormat('es-AR', {
