@@ -10,6 +10,13 @@ La interfaz intuitiva permite a los usuarios explorar fácilmente por la página
 
 En resumen, el objetivo fue proporcionar una plataforma digital que no solo sea funcional y fácil de usar, sino que también capture la esencia y la autenticidad de Piano House, fomentando así la fidelidad del cliente y atrayendo nuevos adeptos.
 
+## Enlace y vista previa:
+<a href="https://github.com/Dario-Ferreyra/bootcampFrontEnd-UTN-Silicon">Piano House</a>
+
+<a href="https://dario-ferreyra.github.io/bootcampFrontEnd-UTN-Silicon/" target="_blank">
+  <img src="https://i.imgur.com/jYAPCJ8.png" alt="Logo de Google" width="800">
+</a>
+
 ## Desarrollado por:
 - [Ferreyra Dario](https://github.com/Dario-Ferreyra)
 
